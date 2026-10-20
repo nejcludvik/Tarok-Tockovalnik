@@ -265,7 +265,7 @@
                     setGames(games.map(g => g.id === editingGameId ? gameRecord : g));
                 } else {
                     setGames([...games, gameRecord]);
-                    setDealerIndex((dealerIndex + 1) % players.length); // Premik delivca samo pri novi igri
+                    setDealerIndex((dealerIndex + 1) % players.length); // Premik delivca samo pri nova igri
                 }
 
                 setPlayers(updatedPlayers);
